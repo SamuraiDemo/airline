@@ -8,6 +8,8 @@ import { ContactComponent } from './contact/contact.component';
 import { MenuComponent } from './menu/menu.component';
 import { NiceFooterComponent } from './nice-footer/nice-footer.component';
 import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
+import { AirlineComponent } from './airline/airline.component';
+import { ProgramComponent } from './program/program.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
     MenuComponent,
     NiceFooterComponent,
     TicTacToeComponent,
+    AirlineComponent,
+    ProgramComponent,
   ],
   imports: [
     BrowserModule,
